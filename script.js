@@ -28,7 +28,7 @@ const shoes = [
     name: "Nike Court Legacy",
     price: 1900000,
     brand: "Nike",
-    image: "../imgweb/nike_4.png",
+    image: "imgweb/nike_4.png",
     desc: "Phong cách tennis cổ điển.",
   },
   {
@@ -311,4 +311,5 @@ window.logoutAllPages = function() {
 
 // Gọi hàm này ngay khi file script.js được tải
 document.addEventListener("DOMContentLoaded", updateAuthUI);
+
 
